@@ -1,0 +1,71 @@
+\documentclass[12pt,a4paper,twoside]{report}
+ 
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage[inner=2.5cm,outer=3.5cm,bottom=3cm,top=2.5cm,pdftex]{geometry}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{rotating}
+\usepackage[norsk]{varioref}
+\usepackage{fancyhdr}
+\usepackage[page]{appendix}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+%\usepackage[pdfborder=0 0 0]{hyperref}
+\usepackage{paralist}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{titlesec}
+\usepackage[style=super,header=plain,]{glossary}
+\usepackage{tocbibind}     % for bibliography in TOC
+\usepackage{url}           % for URL formatting in references
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{longtable}
+
+% Fix for twoside vertical stretch problem
+% See http://www.latex-community.org/viewtopic.php?t=1547
+\raggedbottom
+
+% Style our chapter headings.
+\titlespacing{\chapter}{0pt}{0pt}{40pt}
+\titleformat{\chapter}[display]
+ {\bfseries\Large}
+ {\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+ {4ex}
+ {\titlerule
+  \vspace{2ex}%
+  \filright}
+ [\vspace{2ex}%
+ \titlerule]
+
+\vrefwarning
+
+\begin{document}
+
+%\begin{titlepage}
+\pagestyle{empty}
+
+\mbox{}
+\vfill
+  \begin{figure}[H]
+    \centering
+ 	Word: Roflsaurus
+  \end{figure}
+  \begin{center}
+    \rule{15cm}{0.1cm} \\%[0.3cm]
+    \huge\textsc{Definition: }\\
+    \large{\em{A big saurus saurus\\}}
+    \huge\textsc{Example sentence: }\\
+    \large{\em{OMG, that is a HUGE roflsaurus!}}
+    \vspace{0.7cm}
+    \rule{15cm}{0.1cm} \\[0.3cm]
+    \vfill
+    \normalsize
+
+  \end{center}
+\vfill
+\mbox{}
+
+\end{document}
+% Ivar har gløymt sykkelen sin. WTF! 
